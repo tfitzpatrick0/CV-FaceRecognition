@@ -1,5 +1,6 @@
 # Computer Vision Course (CSE 40535/60535)
 # University of Notre Dame, Fall 2019
+#hello from the other side
 # ________________________________________________________________
 # Adam Czajka, September 2017
 
