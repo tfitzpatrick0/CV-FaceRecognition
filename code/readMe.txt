@@ -11,3 +11,4 @@ trainer.py- worked with tim combining lbp to train model
 
 Tim
 trainer.py- worked with nick to load in imagesets to be trained and return result
+image_clean.py- cleans image data set, removes single set image examples
