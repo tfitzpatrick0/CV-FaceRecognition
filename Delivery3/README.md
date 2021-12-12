@@ -42,7 +42,9 @@ Steps to get your project running:
    cd Delivery3
    ```
 4. Run scripts
+
   Use flags to specify which image sets to use:
+  
       -t for training set
       -v for validation set
       -u for unknown set
