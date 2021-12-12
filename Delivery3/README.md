@@ -43,5 +43,7 @@ Steps to get your project running:
    ```
 4. Run scripts
    ```sh
-   python face_recognition.py
+   python detection.py [This will go through filesystem and detect/adjust faces]
+   python trainer.py [This will create a model using lbph]
+   python recognition.py [This will go through each image and check it against the model to recognize the image and verify accuracy]
    ```
