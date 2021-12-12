@@ -37,9 +37,9 @@ Steps to get your project running:
    ```sh
    git clone git@github.com:nnewton2/cv_face_recognition.git
    ```
-3. Enter `Delivery3` Directory
+3. Enter `cv2_lbp_recognizer` Directory
    ```sh
-   cd Delivery3
+   cd Delivery3/cv2_lbp_recognizer
    ```
 4. Run scripts
 
