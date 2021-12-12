@@ -1,4 +1,4 @@
-# CV3 Nick Newton, Tim Fitzpatrick
+# CVFinal Nick Newton, Tim Fitzpatrick
 
 # About The Project
 
