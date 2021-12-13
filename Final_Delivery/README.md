@@ -53,3 +53,11 @@ Steps to get your project running:
    python trainer.py [This will create a model using lbph]
    python recognition.py [This will go through each image and check it against the model to recognize the image and verify accuracy]
    ```
+ 5. Example to Run for Grading
+ 
+  Run realtime.py This takes about 100 pictures of you face and puts it into a folder with your name inside of the unknown file.
+  This is then added to the trained model and once trained, a new window should open to recognize your face in real-time.
+  
+  ```sh
+  python realtime.py
+  ```
