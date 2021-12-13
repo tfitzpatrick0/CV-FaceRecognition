@@ -23,12 +23,13 @@ def detect_face(dir, detected):
         name_path = os.path.join(dir, name)
         if (os.path.split(name_path)[-1][0] == '.'):
             continue
-
         count = 0     
         id += 1
 
         for face in os.listdir(name_path):
             img_path = os.path.join(name_path, face)
+            if (os.path.split(img_path)[-1][0] == '.'):
+                continue
 
             img = cv2.imread(img_path)
             grayscale = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

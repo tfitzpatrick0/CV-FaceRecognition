@@ -117,11 +117,11 @@ def main():
             id_map = build_id_map(detected)
             face_recognizer.read(model)
 
-            #accuracy_test(dir, id_map)
+            accuracy_test(dir, id_map)
             #result = recognize_face('2_validation/Kurt_Warner/Kurt_Warner_0001.jpg', id_map)
             #result = recognize_face('2_validation/LeBron_James/LeBron_James_0001.jpg', id_map)
-            result = recognize_face('adam_czajka.jpg', id_map)
-            print(result)
+            #result = recognize_face('adam_czajka.jpg', id_map)
+            #print(result)
         else:
             print('Assure the following directories are made: ' + dir + ' ' + detected + ' ' + model)
 
