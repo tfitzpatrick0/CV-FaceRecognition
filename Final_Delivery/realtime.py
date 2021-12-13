@@ -70,7 +70,7 @@ def main():
     name = input("Enter your name (ex: Tim_Fitzpatrick): ")
 
     if (detection.check_path(dir)):
-        new_img_path = os.path.join(dir, name)
+        new_img_path = os.path.join(dir, name) + '/'
         detection.make_path(new_img_path)
 
         for f in os.listdir(new_img_path):
