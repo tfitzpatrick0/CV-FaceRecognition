@@ -37,11 +37,11 @@ Steps to get your project running:
    ```sh
    git clone git@github.com:nnewton2/cv_face_recognition.git
    ```
-3. Enter `cv2_lbp_recognizer` Directory
+2. Enter `cv2_lbp_recognizer` Directory
    ```sh
    cd Delivery3/cv2_lbp_recognizer
    ```
-4. Run scripts
+3. Run scripts
 
   Use flags to specify which image sets to use:
   
@@ -53,7 +53,7 @@ Steps to get your project running:
    python trainer.py [This will create a model using lbph]
    python recognition.py [This will go through each image and check it against the model to recognize the image and verify accuracy]
    ```
- 5. Example to Run for Grading
+4. Example to Run for Grading
  
   Run realtime.py This takes about 100 pictures of you face and puts it into a folder with your name inside of the unknown file.
   This is then added to the trained model and once trained, a new window should open to recognize your face in real-time.
