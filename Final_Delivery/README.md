@@ -35,7 +35,7 @@ Make sure Python and openCV are installed.
 Steps to use the face recognition system:
 1. Clone the repo
    ```sh
-   git clone git@github.com:nnewton2/cv_face_recognition.git
+   git clone git@github.com:tfitzpatrick0/CV-FaceRecognition.git
    ```
 2. Enter `Final_Delivery` Directory
    ```sh
