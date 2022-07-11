@@ -2,6 +2,8 @@
 
 This is a program that uses image processing and pattern recognition techniques to detect and recognize faces. Created by Tim Fitzpatrick and Nick Newton.
 
+View our [presentation](FaceRecognition.pdf)
+
 ## Built With
 
 - [Python](https://www.python.org/)
